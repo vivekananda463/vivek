@@ -1,0 +1,31 @@
+body{
+    background-image: url(contactus.jpg);
+    background-repeat: no-repeat;
+    background-size: 2000px 2000px;
+}
+
+h1{
+    color: red
+   font-size: 30px;
+   text-align:center;
+
+
+}
+label{
+    color:black;
+    font-size:22px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+button{
+    color: black;
+    background-color:orange;
+    font-size: 150%;
+    border-radius: 30%;
+    
+
+}
+button:hover{
+   
+    background-color: yellow;
+}

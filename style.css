@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#links{
+    border: solid 1px;
+    height: 38px;
+    background-color: rgb(52, 144, 144);
+    line-height: 38px;
+}
+#text1,#text2,#text3,#text4,#text5{
+    color: black;
+    font-size: 22px;
+    text-decoration: none;
+    padding-right: 21px;
+
+}
+#text1{
+    padding-left: 35px;
+
+}
+.out1{
+    border: solid 1px;
+    height: 140px;
+    display: flex;
+}
+#in1,#in2{
+    border: solid 1px;
+    height: 140px;
+    
+}
+#in1{
+    width: 140px;
+}
+#in2{
+    width: 13700px;
+    text-align: center;
+    background-color: rgb(151, 191, 118);
+}
+#clg{
+    font-size: 56px;
+    color: red;
+}
+#txt1,#txt2{
+    font-size: 23px;
+    font-weight: bold;
+    color: brown;
+}
+#ugc{
+    background-color: brown;
+    height: 25px;
+    color: yellow;
+    font-size: 22px;
+    font-weight: blod;
+}
+#navbox{
+    border: solid 1px;
+    height: 30px;
+}
+ul li{
+    border: solid 1px;
+    height: 30px;
+    width: 176px;
+    float: left;
+    background-color: rgb(119, 190, 60);
+    text-align: center;
+    line-height: 30px;
+    border-radius: 20px;
+    margin-right: 2px;
+}
+ul li a{
+    color: rgb(9, 7, 23);
+    font-size: 22px;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+ul li ul li{
+    display: none;
+    margin: 1PX;
+}
+ul li:hover ul li{
+    display: block;
+    
+}
+ul li:hover{
+    background-color: red;
+}
+.logos{
+    border: solid 1px;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    background-color:red;
+    
+}
+#lg1,#lg2,#lg3,#lg4,#lg5{
+    border: solid 1px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    
+}
+.obox{
+    border: solid 1px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#obox1,#obox2,#obox3{
+    border: solid 1px;
+    height: 400px;
+}
+#obox1{
+    width: 400px;
+    background-image: url(bits463.webp);
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    animation-name: imgchange1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes imgchange1{
+    0%{
+        background-image: url(bits1.webp);
+    }
+    10%{
+        background-image: url(bits2.jpg);
+    }
+    20%{
+        background-image: url(bits3.jpg);
+    }
+    30%{
+        background-image: url(bits463.webp);
+    }
+}
+#obox2{
+    width: 400px;
+    
+    background-repeat: no-repeat;
+    
+    animation-name: imgchange;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+    
+
+#obox3{
+    width: 400px;
+}
+
